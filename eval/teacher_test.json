@@ -1,0 +1,22 @@
+{
+  "teacher/test_v3": {
+    "n": 148,
+    "exact": 0.8649,
+    "sim": 0.9973,
+    "loss": 0.003,
+    "add": 0.0025,
+    "len_ratio": 1.0,
+    "abnormal": 0,
+    "sec_per_sample": 1.334
+  },
+  "rule_baseline_teacher/test_v3": {
+    "n": 148,
+    "exact": 1.0,
+    "sim": 1.0,
+    "loss": 0.0,
+    "add": 0.0,
+    "len_ratio": 1.0,
+    "abnormal": 0,
+    "sec_per_sample": 0.0
+  }
+}

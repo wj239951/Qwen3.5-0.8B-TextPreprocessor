@@ -1,0 +1,22 @@
+{
+  "rule/test": {
+    "n": 600,
+    "exact": 0.915,
+    "sim": 0.994,
+    "loss": 0.0072,
+    "add": 0.0037,
+    "len_ratio": 0.996,
+    "abnormal": 0,
+    "sec_per_sample": 0.872
+  },
+  "rule_baseline_rule/test": {
+    "n": 600,
+    "exact": 1.0,
+    "sim": 1.0,
+    "loss": 0.0,
+    "add": 0.0,
+    "len_ratio": 1.0,
+    "abnormal": 0,
+    "sec_per_sample": 0.0
+  }
+}
