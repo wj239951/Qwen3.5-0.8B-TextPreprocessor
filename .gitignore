@@ -1,0 +1,23 @@
+# 依赖与环境
+.venv/
+__pycache__/
+*.pyc
+
+# 模型权重与训练中间产物（体积大，走 Release / ModelScope 分发）
+models/
+outputs/
+wheels/
+logs/
+Qwen3.5-0.8B-TextPreprocessor/
+
+# 数据（可由脚本重新生成；评测子集已放在 dataset/）
+data/rule/
+data/sft/
+data/teacher/*.jsonl
+
+# 逐条预测（体积大且可重跑）
+eval/preds*.jsonl
+
+# 临时文件
+*.tmp
+*.bin

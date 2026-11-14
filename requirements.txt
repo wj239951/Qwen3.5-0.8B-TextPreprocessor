@@ -1,0 +1,18 @@
+# 训练与推理依赖（Python 3.10）
+#
+# torch 需要带 CUDA 的版本，从 PyTorch 官方源安装：
+#   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+# 其余依赖从普通 PyPI / 国内镜像安装即可。
+
+torch==2.11.0
+transformers>=4.57.0
+peft>=0.13.0
+accelerate>=1.0.0
+datasets>=3.0.0
+safetensors>=0.4.3
+tokenizers>=0.20.0
+sentencepiece>=0.2.0
+protobuf>=4.25.0
+numpy>=1.26.0
+tqdm>=4.66.0
+pyyaml>=6.0
